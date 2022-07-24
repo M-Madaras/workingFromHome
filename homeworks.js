@@ -65,20 +65,27 @@
 //   console.log(num ** num)
 // }
 // theExpo(7)
+
+
+
+
 /**** Finding string index in arrray */
 // const arr = ['a', 'b', 'c', 'd']
-// const string1 = 'c'
+// const string1 = 'a'
 
 // function findStringIndex(array, str) {
 //   for (let i = 0; i < array.length; i++) {
 //     const element = array[i];
-//     if (str == element) {
+//     if (str === element) {
 //       return i
 //     }
 //   }
 // }
 
 // console.log(findStringIndex(arr, string1))
+
+
+
 /*** Type Of */
 // function typeOf(arr) {
 //   let value = [];
@@ -88,3 +95,5 @@
 //    return value;
 // }
 // console.log(typeOf([1,"4",true]))
+
+
