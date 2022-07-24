@@ -121,7 +121,15 @@ function sevenBoom(arr) {
 }
 console.log(sevenBoom([2, 6, 4, 9, 3]))
 
-function digits(num) {
-    
+// int num length of the num
+function countDigit(numb)
+{
+    let count = 0;
+    while (numb != 0)
+    {
+        numb = Math.floor(numb / 10); // this line 
+        ++count;
+    }
+    return count;
 }
-console.log(digits(12))
+ console.log(countDigit(53344444444))
