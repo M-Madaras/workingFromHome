@@ -96,4 +96,32 @@
 // }
 // console.log(typeOf([1,"4",true]))
 
+// numbers UP
+function numUp(num) {
+    // sum = to input num
+    let sum = num
+    //loop takes all the previous numbers 
+    for (let i = 0; i < num; i++) {
+        // sum is num i is previous += i to get new total
+        sum += i;
+    }
+    // return total
+    return sum;
+}
+console.log(numUp(4))
 
+
+function sevenBoom(arr) {
+ // .some checks array for if one method is true
+    if (arr.some(num => `${num}`.includes(7))) {
+// .includes checks to see if certain value included
+        return ("Boom!")
+    }
+    return ("there is no 7 in the array")
+}
+console.log(sevenBoom([2, 6, 4, 9, 3]))
+
+function digits(num) {
+    
+}
+console.log(digits(12))
