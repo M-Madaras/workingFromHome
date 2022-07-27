@@ -57,10 +57,11 @@
 
 
 // function addingNums(num,num2,num3,num4) {
-//     console.log(num+num2 + num3 + num4) 
+//     console.log(num + num2 + num3 + num4) 
 // }
 // addingNums(12,33,22,14)
 
+// sqaured function
 // let theExpo = function(num) {
 //   console.log(num ** num)
 // }
@@ -136,5 +137,11 @@
 
 
 // Tile Teamwork Tactics
-const possibleBonus = (a,b) => a < b && b - a < 7;
-console.log(possibleBonus(1,8))
+// const possibleBonus = (a,b) => a < b && b - a < 7;
+// console.log(possibleBonus(1,8))
+
+
+// function sumPolygon(n){
+//     return (n-2) * 180
+// }
+// console.log(sumPolygon(5))
