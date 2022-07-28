@@ -145,3 +145,9 @@
 //     return (n-2) * 180
 // }
 // console.log(sumPolygon(5))
+
+// largest Swap
+// function largestSwap(num) {
+//     return num >= parseInt([...(num + "")].reverse().join(""));
+//   }
+//   console.log(largestSwap(78))
