@@ -151,3 +151,10 @@
 //     return num >= parseInt([...(num + "")].reverse().join(""));
 //   }
 //   console.log(largestSwap(78))
+
+// index of
+function secondIndexOf(str1,str2) {
+    let firstIndex = str1.indexOf(str2);
+return str1.indexOf(str2, firstIndex + 1);
+}
+console.log(secondIndexOf("the bird is the word","he"))
