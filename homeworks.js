@@ -153,8 +153,22 @@
 //   console.log(largestSwap(78))
 
 // index of
-function secondIndexOf(str1,str2) {
-    let firstIndex = str1.indexOf(str2);
-return str1.indexOf(str2, firstIndex + 1);
+// function secondIndexOf(str1,str2) {
+//     let firstIndex = str1.indexOf(str2);
+// return str1.indexOf(str2, firstIndex + 1);
+// }
+// console.log(secondIndexOf("the bird is the word","he"))
+
+
+function getNumberOfVowels(str) {
+    let count = 0;
+    const vowels = ['a','e','i','o','u']
+    for (let i = 0; i < str.length; i++) {
+        let char = str[i].toLowerCase();
+        if (vowels.includes(char)){
+            count ++;
+        }
+    }
+    return count;
 }
-console.log(secondIndexOf("the bird is the word","he"))
+console.log(getNumberOfVowels("the birds and bees"))
