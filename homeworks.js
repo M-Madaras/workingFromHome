@@ -159,16 +159,26 @@
 // }
 // console.log(secondIndexOf("the bird is the word","he"))
 
+// number of vowels
+// function getNumberOfVowels(str) {
+//     let count = 0;
+//     const vowels = ['a','e','i','o','u']
+//     for (let i = 0; i < str.length; i++) {
+//         let char = str[i].toLowerCase();
+//         if (vowels.includes(char)){
+//             count ++;
+//         }
+//     }
+//     return count;
+// }
+// console.log(getNumberOfVowels("the birds and bees"))
 
-function getNumberOfVowels(str) {
-    let count = 0;
-    const vowels = ['a','e','i','o','u']
-    for (let i = 0; i < str.length; i++) {
-        let char = str[i].toLowerCase();
-        if (vowels.includes(char)){
-            count ++;
-        }
-    }
-    return count;
-}
-console.log(getNumberOfVowels("the birds and bees"))
+// let reverseName = function (name){
+//     let newName = name.split("");
+//     let newN = newName.reverse();
+//     let myName = newN.join("");
+//     return console.log(myName)
+// }
+
+// reverseName("John")
+
