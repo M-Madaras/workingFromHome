@@ -182,3 +182,35 @@
 
 // reverseName("John")
 
+// let num1 = 349574378956435;
+// let array = [1,2,3,4,5,6]
+// num1 = num1.toString()
+// function digitize(n) {
+//     let otherResult = '';
+//     for (let i = n.length-1; i >= 0; i--) {
+//         otherResult += n[i];
+//     }
+//     return otherResult;
+// }
+// console.log(digitize(num1))
+
+// console.log(array.reverse())
+
+// function reversedNum(num) {
+//     return (
+//       parseFloat(
+//         num
+//           .toString()
+//           .split('')
+//           .reverse()
+//           .join('')
+//       ) * Math.sign(num)
+//     )                 
+//   }
+//   console.log(reversedNum(3031))
+//   // several was to reverse numbers in JS
+//   let num3 = 349574378956435;
+// function digitize(n) {
+//   return n.toString().split("").reverse().join('')
+// }
+// console.log(digitize(num3))
